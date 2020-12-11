@@ -1,0 +1,15 @@
+.custom-table tr,
+.custom-table th,
+.custom-table td {
+  padding: .5rem;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #d8d8d8;
+  border-bottom: 2px solid #bbb;
+}
+
+.custom-table tr:nth-child(odd) {
+  background: #f0f0f0;
+}
